@@ -15,7 +15,7 @@ while True:
             extrato.append(f"+ R${valor_deposito:.2}")
             saldo += valor_deposito
         else:
-            print("NÃO É POSSIVEL DEPOSTAR VALORES NEGATIVOS!")
+            print("NÃO É POSSIVEL DEPOSITAR VALORES NEGATIVOS!")
     elif menu == "2":
         print("SAQUE")
         valor_saque = float(input("Digite o valor do saque que deseja efetuar: R$"))
